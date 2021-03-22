@@ -2,17 +2,8 @@ import React from 'react'
 
 function Projects() {
 
-  const imageStyle = {
-    width: '400px'
-  }
-
-  const backgroundStyle = {
-    backgroundColor: 'black',
-    color: 'white'
-  }
-
   return <>
-    <section className="p-5" style={backgroundStyle}>
+    <section className="projects p-5">
       <div id="carouselExampleCaptions" className="carousel slide" data-bs-ride="carousel">
         <div className="carousel-indicators">
           <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
@@ -23,7 +14,7 @@ function Projects() {
           <div className="carousel-item active">
             <h5 className="text-center">Garms</h5>
             <p className="text-center">A full stack application, with a PostgreSQL database, Flask backend and React frontend.</p>
-            <img src="https://res.cloudinary.com/dj87j2nvi/image/upload/v1616421343/Screenshot_2021-03-18_at_12.29.05_zlmt0n.png" className="d-block w-100" alt="Garms search page" style={imageStyle} />
+            <img src="https://res.cloudinary.com/dj87j2nvi/image/upload/v1616421343/Screenshot_2021-03-18_at_12.29.05_zlmt0n.png" className="d-block w-100" alt="Garms search page"/>
             <div className="carousel-caption d-none d-md-block">
             </div>
           </div>
@@ -45,7 +36,7 @@ function Projects() {
             <img src="..." className="d-block w-100" alt="..." />
             <div className="carousel-caption d-none d-md-block">
               <h5>Pac-Man</h5>
-              <p>A week-long solo project to create a grid-based game using 'vanilla' JavaScript, HTML and CSS. </p>
+              <p>A week-long solo project to create a grid-based game using vanilla JavaScript, HTML and CSS. </p>
             </div>
           </div>
         </div>

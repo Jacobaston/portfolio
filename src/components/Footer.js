@@ -6,19 +6,21 @@ function Footer() {
 
   return <>
     <div className="m-5">
-      <h2 className="text-center">Contact Me</h2>
+      <h2 className="text-center">Don't be shy... Come say Hello</h2>
     </div>
     <div className="container mb-4">
       <div className="row align-items-center">
-        <div className="col">
-          <SocialIcon src="https://www.linkedin.com/in/jacob-aston/" network="linkedin"/>
-          <p className="text-center">LinkedIn</p>
-          {/* <img src={LinkedIn image} /> */}
+        <div className="col text-center">
+          <div>
+            <SocialIcon network="linkedin" />
+          </div>
+          <a className="text-center" href="https://www.linkedin.com/in/jacob-aston/" target="blank">LinkedIn/JacobAston</a>
         </div>
-        <div className="col">
-          <SocialIcon src="https://github.com/Jacobaston" network="github" />
-          <p className="text-center">GitHub</p>
-          {/* <img src={GitHub image}/> */}
+        <div className="col text-center">
+          <div>
+            <SocialIcon network="github" />
+          </div>
+          <a className="text-center" href="https://github.com/Jacobaston" target="blank">GitHub/JacobAston</a>
         </div>
       </div>
     </div>
