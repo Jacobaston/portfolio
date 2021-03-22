@@ -16,17 +16,20 @@ import { DiHtml5,
 import { SiWebpack,
   SiBabel,
   SiFlask,
-  SiJsonwebtokens } from 'react-icons/si'
+  SiJsonwebtokens,
+  SiTrello } from 'react-icons/si'
 import { motion } from 'framer-motion'
   
 
 function Skills() {
+
+
   return <>
     <section>
       <div>
         <h2 className="text-center m-4">What I'm skilled at</h2>
       </div>
-      <div className="container">
+      <div className="container text-center">
         <div className="row row-cols-4">
           <div className="col"><DiHtml5 /></div>
           <div className="col"><DiCss3 /></div>
@@ -47,7 +50,7 @@ function Skills() {
         </div>
         <div className="row row-cols-4">
           <div className="col"><DiPostgresql /></div>
-          <div className="col">Marshmallow</div>
+          <div className="col"><SiTrello /></div>
           <div className="col"><DiNpm /></div>
           <div className="col"><DiVisualstudio /></div>
         </div>

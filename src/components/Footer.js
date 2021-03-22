@@ -11,12 +11,12 @@ function Footer() {
     <div className="container mb-4">
       <div className="row align-items-center">
         <div className="col">
-          <SocialIcon src="https://www.linkedin.com/in/jacob-aston/" />
+          <SocialIcon src="https://www.linkedin.com/in/jacob-aston/" network="linkedin"/>
           <p className="text-center">LinkedIn</p>
           {/* <img src={LinkedIn image} /> */}
         </div>
         <div className="col">
-          <SocialIcon src="https://github.com/Jacobaston" />
+          <SocialIcon src="https://github.com/Jacobaston" network="github" />
           <p className="text-center">GitHub</p>
           {/* <img src={GitHub image}/> */}
         </div>

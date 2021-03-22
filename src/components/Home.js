@@ -1,12 +1,11 @@
 import React from 'react'
 import Skills from './Skills'
 import About from './About'
+import Projects from './Projects'
 
 function Home() {
 
   const background = '../images/background'
-  const profile = '../images/profile'
-
   // Image real within a screen from
   // Array of image sources
   // Loop through array on a timeout (3-5 seconds per image)
@@ -26,10 +25,7 @@ function Home() {
 
     <About />
 
-    {/* Portfolio */}
-    <section>
-
-    </section>
+    <Projects />
 
     <Skills />
   </>
