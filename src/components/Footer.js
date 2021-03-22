@@ -5,7 +5,7 @@ function Footer() {
 
 
   return <>
-    <div className="m-5">
+    <div className="m-5" id="contact">
       <h2 className="text-center">Don't be shy... Come say Hello</h2>
     </div>
     <div className="container mb-4">

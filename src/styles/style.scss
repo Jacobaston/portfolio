@@ -7,8 +7,8 @@
 // }
 
 svg {
-  height: 5em;
-  width: 5em;
+  height: 4em;
+  width: 4em;
   padding: 5px;
 }
 
@@ -22,7 +22,7 @@ svg {
   top: 0;
   left: 0;
   width: 100%;
-  height: 100%;
+  height: 100vh;
   padding: 35px 0;
 }
 
@@ -67,6 +67,18 @@ svg {
     background-color: transparent;
     border-bottom: 3px solid white;
   }
+}
+
+.about {
+  height: 100vh;
+}
+
+.profile {
+  border-radius: 5%;
+}
+
+.skills {
+  height: 100vh;
 }
 
 .projects {

@@ -2,7 +2,7 @@ import React from 'react'
 
 function About() {
   return <>
-    <section className="m-5">
+    <section className="about m-5" id="about">
       <div>
         <h2 className="text-center">About me</h2>
       </div>
@@ -16,7 +16,7 @@ function About() {
             <a href="mailto: jacobaston92@gmail.com">Get in touch</a>
           </div>
           <div className="col-xs-12 col-md-6">
-            <img src='https://res.cloudinary.com/dj87j2nvi/image/upload/v1616411173/profile_copy_cjlsvt.jpg' />
+            <img className="profile" src='https://res.cloudinary.com/dj87j2nvi/image/upload/v1616443188/profile_copy_cjlsvt.jpg' />
           </div>
         </div>
       </div>

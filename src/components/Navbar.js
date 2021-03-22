@@ -7,10 +7,10 @@ function Navbar() {
         <img src="https://res.cloudinary.com/dj87j2nvi/image/upload/v1616424220/Screenshot_2021-03-22_at_14.42.56_bi0t2j.png" alt="" width="40" height="30" />
         <ul className="nav justify-content-end">
           <li className="nav-item">
-            <a className="nav-link active" href="#about">About Me</a>
+            <a className="nav-link active" href="#about">About</a>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="#skills">Skills</a>
+            <a className="nav-link" href="#technologies">Technologies</a>
           </li>
           <li className="nav-item">
             <a className="nav-link" href="#projects">Projects</a>
