@@ -1,62 +1,93 @@
 import React from 'react'
+import {
+  DiHtml5,
+  DiCss3,
+  DiSass,
+  DiJsBadge,
+  DiNodejs,
+  DiReact,
+  DiPython,
+  DiPostgresql
+} from 'react-icons/di'
+import { SiFlask } from 'react-icons/si'
+import { Carousel } from 'react-bootstrap'
 
 function Projects() {
 
   return <>
     <section className="projects p-5" id="projects">
-      <div id="carouselExampleCaptions" className="carousel slide" data-bs-ride="carousel">
-        <div className="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-        </div>
-        <div className="carousel-inner">
-          <div className="carousel-item active">
-            <h5 className="text-center">Garms</h5>
-            <p className="text-center">A full stack application, with a PostgreSQL database, Flask backend and React frontend.</p>
-            <img src="https://res.cloudinary.com/dj87j2nvi/image/upload/v1616421343/Screenshot_2021-03-18_at_12.29.05_zlmt0n.png" className="d-block w-100" alt="Garms search page" />
-            <div className="carousel-caption d-none d-md-block">
+      <h2 className="text-center mb-5">Projects</h2>
+      <Carousel
+        prevLabel=''
+        nextLabel=''
+        pause='hover'
+      >
+        <Carousel.Item interval={4000}>
+          <div className="container">
+            <div className="row align-items-start">
+              <div className="col">
+                <img src="https://res.cloudinary.com/dj87j2nvi/image/upload/v1616421343/Screenshot_2021-03-18_at_12.29.05_zlmt0n.png" className="d-block w-50" alt="Garms search page" />
+              </div>
+              <div className="col">
+                <h2>Garms</h2>
+                <h5>Group Project | One week</h5>
+                <div className="pt-2 pb-2"><DiJsBadge className="tech" /><DiHtml5 className="tech" /><DiSass className="tech" /><DiReact className="tech" /><DiPython className="tech" /><SiFlask className="tech" /><DiPostgresql className="tech" /></div>
+                <p>'Garms' enables users to buy, sell and discover unique colthing and accessories from other users</p>
+                <p>I used Flask with Python to build out the back-end functionality for users, items and wishlists. Using React on the front-end provides a user-friendly and interactive experience for creating and customising the shop front.</p>
+              </div>
             </div>
           </div>
-          <div className="carousel-item">
-            <img src="https://res.cloudinary.com/dj87j2nvi/image/upload/v1616421851/profile_prx6kb.png" className="d-block w-100" alt="Garms profile" />
-            <div className="carousel-caption d-none d-md-block">
-              <h5>Loose End</h5>
-              <p>A full stack application, with a MongoDB database, data served using Express and a React front-end.</p>
+        </Carousel.Item>
+        <Carousel.Item interval={4000}>
+          <div className="container">
+            <div className="row align-items-start">
+              <div className="col">
+                <img src="https://res.cloudinary.com/dj87j2nvi/image/upload/v1616421343/Screenshot_2021-03-18_at_12.29.05_zlmt0n.png" className="d-block w-50" alt="Garms search page" />
+              </div>
+              <div className="col">
+                <h2>Loose End</h2>
+                <h5>Group Project | One week</h5>
+                <div className="pt-2 pb-2"><DiJsBadge className="tech" /><DiHtml5 className="tech" /><DiSass className="tech" /><DiReact className="tech" /><DiPython className="tech" /><SiFlask className="tech" /><DiPostgresql className="tech" /></div>
+                <p>'Garms' enables users to buy, sell and discover unique colthing and accessories from other users</p>
+                <p>I used Flask with Python to build out the back-end functionality for users, items and wishlists. Using React on the front-end provides a user-friendly and interactive experience for creating and customising the shop front.</p>
+              </div>
             </div>
           </div>
-          <div className="carousel-item">
-            <img src="..." className="d-block w-100" alt="..." />
-            <div className="carousel-caption d-none d-md-block">
-              <h5>SEI Jobs</h5>
-              <p>A two-day hackathon paired project to create a React app that consumes a public API.</p>
+        </Carousel.Item>
+        <Carousel.Item interval={4000}>
+          <div className="container">
+            <div className="row align-items-start">
+              <div className="col">
+                <img src="https://res.cloudinary.com/dj87j2nvi/image/upload/v1616421343/Screenshot_2021-03-18_at_12.29.05_zlmt0n.png" className="d-block w-50" alt="Garms search page" />
+              </div>
+              <div className="col">
+                <h2>SEI Jobs Board</h2>
+                <h5>Pair Project | 48 Hours</h5>
+                <div className="pt-2 pb-2"><DiJsBadge className="tech" /><DiHtml5 className="tech" /><DiSass className="tech" /><DiReact className="tech" /><DiPython className="tech" /><SiFlask className="tech" /><DiPostgresql className="tech" /></div>
+                <p>'Garms' enables users to buy, sell and discover unique colthing and accessories from other users</p>
+                <p>I used Flask with Python to build out the back-end functionality for users, items and wishlists. Using React on the front-end provides a user-friendly and interactive experience for creating and customising the shop front.</p>
+              </div>
             </div>
           </div>
-          <div className="carousel-item">
-            <img src="..." className="d-block w-100" alt="..." />
-            <div className="carousel-caption d-none d-md-block">
-              <h5>Pac-Man</h5>
-              <p>A week-long solo project to create a grid-based game using vanilla JavaScript, HTML and CSS. </p>
+        </Carousel.Item>
+        <Carousel.Item interval={4000}>
+          <div className="container">
+            <div className="row align-items-start">
+              <div className="col">
+                <img src="https://res.cloudinary.com/dj87j2nvi/image/upload/v1616421343/Screenshot_2021-03-18_at_12.29.05_zlmt0n.png" className="d-block w-50" alt="Garms search page" />
+              </div>
+              <div className="col">
+                <h2>Pac-Man</h2>
+                <h5>Solo Project | One week</h5>
+                <div className="pt-2 pb-2"><DiHtml5 className="tech" /><DiCss3 className="tech" /><DiJsBadge className="tech" /></div>
+                <p>I created a classic themed version of Pac-Man that allows the user to control pac-man, losing when caught by pursuing ghosts who move intelligently around the maze, and achieving a final score if they win.</p>
+              </div>
             </div>
           </div>
-        </div>
-        <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-          <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span className="visually-hidden">Previous</span>
-        </button>
-        <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-          <span className="carousel-control-next-icon" aria-hidden="true"></span>
-          <span className="visually-hidden">Next</span>
-        </button>
-      </div>
+        </Carousel.Item>
+      </Carousel>
     </section>
   </>
 }
 
 export default Projects
-
-// Image real within a screen from
-// Array of image sources
-// Loop through array on a timeout (3-5 seconds per image)
-// Render new image source on each loop
-// Wrap timeout in an interval so the loop restarts after showing each photo

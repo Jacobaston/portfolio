@@ -2,14 +2,16 @@
   box-sizing: border-box;
 }
 
-// section { 
-//   height: 100vh;
-// }
-
 svg {
-  height: 4em;
-  width: 4em;
+  height: 3em;
+  width: 3em;
   padding: 5px;
+}
+
+.tech {
+  display: inline;
+  height: 30px;
+  width: 30px;
 }
 
 .react-icons:hover {
@@ -21,9 +23,11 @@ svg {
   background-color: #53868B;
   top: 0;
   left: 0;
+}
+
+#tsparticles {
+  height: 100%;
   width: 100%;
-  height: 100vh;
-  padding: 35px 0;
 }
 
 .title {
@@ -59,35 +63,55 @@ svg {
   background-color: #53868B;
   a:link {
     color: white;
+    border-bottom: 3px dashed transparent;
   }
   a:visited {
-    color: white
+    color: white;
+    border-bottom: 3px dashed transparent;
   }
   a:hover {
     background-color: transparent;
-    border-bottom: 3px solid white;
+    border-bottom: 3px dashed white;
   }
 }
 
 .about {
-  height: 100vh;
-}
-
-.profile {
-  border-radius: 5%;
+  img {
+    border-radius: 5%;
+  }
+  h2 {
+    border-bottom: 3px solid black;
+  }
 }
 
 .skills {
-  height: 100vh;
+  h2 {
+    border-bottom: 3px solid black;
+  }
 }
 
 .projects {
   background-color: #53868B;
   color: white;
+  h2:first-of-type {
+    border-bottom: 3px solid white;
+  }
+}
+
+footer {
+  background-color: #53868B;
+  h2 {
+    color: white;
+    border-bottom: 3px solid white;
+  }
 }
 
 h1, h2, h3, h5 {
   font-family: 'Bebas Neue', cursive;
+}
+
+h2 {
+  font-size: 45px;
 }
 
 p, a {
