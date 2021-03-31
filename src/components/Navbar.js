@@ -4,7 +4,7 @@ function Navbar() {
   return <>
     <nav className="navbar sticky-top p-2">
       <div className="container-fluid">
-        <img src="https://res.cloudinary.com/dj87j2nvi/image/upload/v1616424220/Screenshot_2021-03-22_at_14.42.56_bi0t2j.png" alt="" width="40" height="30" />
+        <img src="https://res.cloudinary.com/dj87j2nvi/image/upload/v1617226237/logo_dacuyr.png" alt="" width="40" height="30" />
         <ul className="nav justify-content-end">
           <li className="nav-item">
             <a className="nav-link active" href="#about">About</a>

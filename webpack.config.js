@@ -32,7 +32,7 @@ module.exports = webpackEnv => {
       contentBase: path.resolve('src'),
       hot: true,
       open: true,
-      port: 8000,
+      port: 5000,
       watchContentBase: true,
       historyApiFallback: true
     },
