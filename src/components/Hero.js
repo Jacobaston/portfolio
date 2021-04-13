@@ -4,13 +4,7 @@ import Particles from 'react-particles-js'
 function Hero() {
   return <>
     <section className="hero">
-      <div
-        style={{
-          top: 0,
-          left: 0,
-          width: '100%',
-          height: '70vh'
-        }}
+      <div className="bubbles"
       >
         <Particles
           params={{

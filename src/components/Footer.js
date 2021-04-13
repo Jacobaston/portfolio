@@ -1,32 +1,51 @@
 import React from 'react'
-import { SocialIcon } from 'react-social-icons'
+// import { SocialIcon } from 'react-social-icons'
 
 function Footer() {
 
 
-  return <>
-    <footer className="p-5">
-      <div className="contact" id="contact">
-        <h2 className="text-center">Say Hello</h2>
-      </div>
-      <div className="container">
-        <div className="row align-items-center">
-          <div className="col text-center">
-            <div>
-              <SocialIcon network="linkedin" />
-            </div>
-            <a className="text-center" href="https://www.linkedin.com/in/jacob-aston/" target="blank">LinkedIn/JacobAston</a>
+  return <footer className="p-2">
+    <section className="section is-small">
+      <div className="columns">
+        <div className="column">
+          <h2>Contact</h2>
+          <div className="contacts-container">
+            <p className="contact-p">
+              <i className="fa fa-envelope fa-lg" />
+              <a
+                className="contactLink"
+                href="mailto:stefansokolowski16@gmail.com"
+                alt="Jacob Aston email"
+                target="_blank"
+                rel="noreferrer">jacobaston92@gmail.com</a>
+            </p>
+            <p className="contact-p">
+              <i className="fa fa-github fa-lg" />
+              <a
+                className="contactLink"
+                href="https://github.com/Jacobaston"
+                alt="Jacob Aston Github"
+                target="_blank"
+                rel="noreferrer">github.com/Jacobaston</a>
+            </p>
+            <p className="contact-p">
+              <i className="fa fa-linkedin fa-lg" />
+              <a
+                className="contactLink"
+                href="https://www.linkedin.com/in/jacob-aston/"
+                alt="Jacob Aston Linkedin"
+                target="_blank"
+                rel="noreferrer">linkedin.com/in/jacob-aston</a>
+            </p>
           </div>
-          <div className="col text-center">
-            <div>
-              <SocialIcon network="github" />
-            </div>
-            <a className="text-center" href="https://github.com/Jacobaston" target="blank">GitHub/JacobAston</a>
+          <a className="hiddenAnchors" name="contact"></a>
+          <div className="copyright">
+            &copy;2021 Jacob Aston
           </div>
         </div>
       </div>
-    </footer>
-  </>
+    </section>
+  </footer>
 }
 
 export default Footer

@@ -11,7 +11,6 @@ import {
 } from 'react-icons/di'
 import { SiFlask } from 'react-icons/si'
 import { Carousel } from 'react-bootstrap'
-import { Link } from 'react-router-dom'
 
 function Projects() {
 

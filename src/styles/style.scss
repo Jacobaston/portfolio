@@ -80,21 +80,21 @@ svg {
     border-radius: 5%;
   }
   h2 {
-    border-bottom: 3px solid black;
+    font-size: 50px;
   }
 }
 
 .skills {
   h2 {
-    border-bottom: 3px solid black;
+    font-size: 50px;
   }
 }
 
 .projects {
   background-color: #53868B;
   color: white;
-  h2:first-of-type {
-    border-bottom: 3px solid white;
+  h2:first-child {
+    font-size: 50px;
   }
 }
 
@@ -113,7 +113,7 @@ footer {
   background-color: #53868B;
   h2 {
     color: white;
-    border-bottom: 3px solid white;
+    
   }
 }
 
@@ -127,4 +127,41 @@ h2 {
 
 p, a {
   font-family: 'Baloo Thambi 2', cursive;
+}
+
+// .sectionTitle {
+//   font-size: 80px;
+//   padding-bottom: 30px;
+// }
+
+.sectionMargin {
+  margin: auto;
+}
+
+.contact-p {
+  margin-bottom: 15px;
+}
+
+.contacts-container i {
+  width: 30px;
+  padding-right: 35px;
+}
+
+.copyright {
+  display: flex;
+  justify-content: flex-end;
+  color: white;
+}
+
+.contactLink {
+  color: white;
+  text-decoration: none;
+}
+
+.contactLink:hover {
+  color: rgba(0, 0, 0, 0.39);
+}
+
+.hiddenAnchors {
+  visibility: hidden;
 }
